@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Css/style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="left">
+        <img src="../Img/Perfil.png" alt="Perfil">
+        <p>Perfil</p>
+    </div>
+        <div class="right">
+        <img src="../Img/Sem Título-1.png" alt="dinheiro" >
+        <p id="money_R">: 100</p>
+        <img src="../Img/Moeda.png" alt="V-Bucks">
+        <p id="money-V">: 0</p>
+        </div>
+
+    </div>
+    <div class="vendas">
+    <div class="itens">
+        <div class="item" onclick="msg1()">
+            <img src="../Img/Moedas.png" alt="" >
+            <h2>2500 V-Bucks</h2>
+            <p>R$10 Reais</p>
+
+        </div>
+        <div class="msg_alerta" id="msg">
+            <div class="card" id="card">
+            <h2>Você tem certeza que quer efetuar está compra?</h2>
+            <p>obs: será descontado do salto atual</p>
+            <div class="btn" id="btn1">
+                <button id="sim" onclick="value1(pessoa)">Sim, quero comprar</button><button id="não" onclick="não()">Não, desejo cancelar</button>
+            </div>
+            <div class="btn" id="btn2">
+                <button id="sim" onclick="value2(pessoa)">Sim, quero comprar</button><button id="não" onclick="não()">Não, desejo cancelar</button>
+            </div>
+            <div class="btn" id="btn3">
+                <button id="sim" onclick="value3(pessoa)">Sim, quero comprar</button><button id="não" onclick="não()">Não, desejo cancelar</button>
+            </div>
+            
+        </div>
+        </div>
+        <div class="item" onclick="msg2()">
+            <img src="../Img/Moedas.png" alt="" >
+            <h2>5000 V-Bucks</h2>
+            <p>R$20 Reais</p>
+        </div>
+        <div class="item" onclick="msg3()">
+            <img src="../Img/Moedas.png" alt="" >
+            <h2>10000 V-Bucks</h2>
+            <p>R$30 Reais</p>
+
+        </div>
+    </div>
+</div>
+</body>
+<script src="../JS/Script.js"></script>
+</html>
