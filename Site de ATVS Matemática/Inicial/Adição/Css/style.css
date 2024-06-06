@@ -1,0 +1,164 @@
+*{
+    padding: none;
+    margin: none;
+}
+body{
+    background-color: rgb(63, 63, 63);
+}
+.container{
+    color: rgb(206, 206, 206);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container h2{
+    margin: 5px 0px 5px 0px;
+}
+.container p{
+    margin: 10px;
+}
+.container select{
+    margin-bottom: 20px;
+    background-color: rgb(172, 172, 172);
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+}
+.config{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.numatv{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    justify-content: center;
+}
+.numatv input{
+    appearance: none;
+    background-color: gray;
+    height: 15px;
+    width: 15px;
+    border-radius: 3px;
+}
+
+.numatv input:checked{
+    border:  solid, 3px, rgb(192, 192, 192);
+}
+.numerodcs{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    justify-content: center;
+
+}
+.numerodcs input{
+    appearance: none;
+    background-color: gray;
+    height: 15px;
+    width: 15px;
+    border-radius: 3px;
+}
+.numerodcs input:checked{
+    border:  solid, 3px, rgb(192, 192, 192);
+}
+
+#boldline{
+    border: none;
+    padding: 2px;
+    background-color: gray;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+}
+.ATTs{
+    display: flex;
+    justify-content: space-between;
+}
+.ATTs h1{
+    margin: 20px 0px 20px 0px;
+}
+.container button{
+    background-color: rgb(0, 209, 0);
+    border: none;
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.1s;
+    color: rgb(53, 53, 53);
+    margin: 0px 0px 0px 20px;
+}
+.container button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 243, 0);
+    transition: 0.1s;
+}
+.ex{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    color: black;
+    margin: 20px 0px 0px 0px;
+    justify-content: space-between;
+}
+.result{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    color: black;
+    margin: 0px 0px 0px 0px;
+}
+.result p{
+    margin: 0px 10px 20px 10px;
+}
+
+.aling{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.atividades{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.atts{
+    margin: 60px 60px 5px  60px;
+}
+#space{
+    margin-top: 5px;
+}
+.atts p{
+    margin: 0px;
+}
+
+@media (max-width: 450px) {
+    .config{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .container h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .container select{
+        margin-bottom: 20px;
+        background-color: rgb(172, 172, 172);
+        border: none;
+        padding: 2px;
+        border-radius: 2px;
+    }
+    .config p{
+        font-size: 20px;
+    }
+}
